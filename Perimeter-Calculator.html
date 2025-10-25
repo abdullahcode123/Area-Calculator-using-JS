@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perimeter Calculator</title>
+</head>
+<body>
+    <h1>Perimeter Calculator</h1>
+    <script>
+        var choice=prompt("choice the numbers. \nwrite any number you want. \n1.circle. \n2.square. \n3.triangle.")
+        if (choice==1){
+           var r=prompt('enter the radious')
+           var ressult=2*3.1416*Number(r)
+           alert('the Perimeter is'+ressult)
+        }
+         if (choice==2){
+           var l=prompt('enter the length')
+           var ressult=4*Number(l)
+           alert('the Perimeter is'+ressult)
+        }
+         if (choice==3){
+           var a=prompt('enter the A value')
+           var b=prompt('enter the b value')
+           var c=prompt('enter the c value')
+           var ressult=Number(a)+Number(b)+Number(c)
+           alert('the Perimeter is'+ressult)
+        }
+    </script>
+</body>
+</html>
