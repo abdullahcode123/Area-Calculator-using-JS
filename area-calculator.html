@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Area Calculator Using JS</title>
+</head>
+<body>
+    <h1>Area Calculator Using JS</h1>
+    <script>
+        var choice= prompt("welcome to area calculator. \n Please enter your choice. \n1. area of rectangle. \n2. area of circle. \n3. area of rectangle. \n4. area of parallelogram.")
+if (choice=='1'){
+    var l =prompt('Enter the length.')
+    var b =prompt('Enter the breath.')
+    var ressult= Number(l)*Number(b)
+    alert ('the area is'+ressult)
+}
+if (choice=='2'){
+    var h =prompt('Enter the height.')
+    var b =prompt('Enter the base.')
+    var ressult= Number(h)*Number(b)/2
+    alert ('the area is'+ressult)
+}
+if (choice=='3'){
+    var r =prompt('Enter the radious.')
+    var ressult=3.14* Number(r)*Number(r)
+    alert ('the area is'+ressult)
+}
+if (choice=='4'){
+    var h =prompt('Enter the height.')
+    var cb =prompt('Enter the coressping base.')
+    var ressult= Number(h)*Number(cb)
+    alert ('the area is'+ressult)
+}
+    </script>
+</body>
+</html>
